@@ -5,14 +5,28 @@ function Home() {
     return (
         <div className="container">
 
-            <div className="jumbotron">
-                <h1 className="display-4">Matthew Ramsay</h1>
-                <p className="lead">NSCA-CPT</p>
-                <hr className="my-4" />
-                <p>Contracted Personal Trainer at Fitness Plus in Lexington, Kentucky</p>
-                <p className="lead">
-                    <a href="http://fitplusinc.com/" className="btn btn-success btn-lg" target="_blank" role="button">Learn more</a>
-                </p>
+            <div className="row pt-5 ">
+
+                <div className="col-lg-4 col-sm-6 d-flex justify-content-center align-items-center pr-xl-0">
+                    <div className="card">
+
+                        <img className="card-img-top" src="img/selfie400px.jpg" alt="" />
+                    </div>
+
+                </div>
+                <div className="col-lg-8 col-sm-6 pl-0">
+
+                    <div className="jumbotron m-0">
+                        <h1 className="display-4">Matthew Ramsay</h1>
+                        <p className="lead">NSCA-CPT</p>
+                        <hr className="my-4" />
+                        <p>Contracted Personal Trainer at Fitness Plus in Lexington, Kentucky</p>
+                        <p className="lead">
+                            <a href="http://fitplusinc.com/" className="btn btn-success" target="_blank" role="button">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -25,14 +39,14 @@ function Home() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src="img/renfaire800px.jpg" alt="First slide" />
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-none d-sm-block">
                             <h4>My mission as a trainer is to help each person, from first time exercisers to seasoned gym veterans, exceed their own expectations and live as healthily and pain-free as possible.</h4>
                         </div>
                     </div>
 
                     <div className="carousel-item">
                         <img className="d-block w-100" src="img/blurryropes800px.jpg" alt="Second slide" />
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-none d-sm-block">
                             <h4>Specializing in recover aftery injuries (recent, old, or chronic) strengthening after orthopedic surgeries including joint-replacements. Strong Over 50, and virtual in-home training.</h4>
                         </div>
                     </div>
